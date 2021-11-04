@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Grading System</h1>
+    </div>
+
+    <div id="content">
+        <div id="upload_sec">
+            <div id="upload_form">
+
+                <label for="name">Enter your name:</label>
+                <input type="text" name="name" id="name">
+
+                <br>
+
+                <label for="mark">Enter your mark:</label>
+                <input type="text" name="mark" id="mark">
+
+                <br>
+
+                <button onclick="addEle()">Submit</button>
+            </div>
+        </div>
+
+        <div id="result_sec">
+            <table id="result_table">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Mark</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody id="table_body">
+                    <!-- <tr>
+                        <td>1</td>
+                        <td>Nyilinhtwe</td>
+                        <td>75</td>
+                        <td>A</td>
+                    </tr> -->
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+</body>
+
+</html>
